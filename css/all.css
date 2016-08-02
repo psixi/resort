@@ -1,15 +1,26 @@
-div ul {
+body {
+  background-color: #cc6666;
+}
+
+div {
   width: 100%;
   text-align: center;
 }
 
-ul {
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav {
+    background-color: #2574a9;
+    width: 90%;
+    margin:0 auto;
+    list-style:none;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none;
 }
 
 li {
@@ -17,10 +28,14 @@ li {
     float: left;
 }
 
-a {
+nav a {
+    width: 150px;
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #2574a9;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 li a {
@@ -29,4 +44,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+img {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
